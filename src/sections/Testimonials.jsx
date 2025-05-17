@@ -9,7 +9,7 @@ const Testimonials = () => {
         <TitleHeader
           title="What People Say About Me?"
           sub="⭐️ Customer feedback highlights"
-        />
+        /> 
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
           {testimonials.map((testimonial, index) => (
