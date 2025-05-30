@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/all";
 
 import { counterItems } from "../constants"; 
  
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger); 
 
 const AnimatedCounter = () => {
   const counterRef = useRef(null);
