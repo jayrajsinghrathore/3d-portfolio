@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 
 import { counterItems } from "../constants"; 
-
+ 
 gsap.registerPlugin(ScrollTrigger);
 
 const AnimatedCounter = () => {
